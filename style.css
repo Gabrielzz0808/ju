@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #0f1418;
+    --dark1: #34484e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #262686;
+    --cyan1: #70e3ea;
+}
+
+body{
+    background-color: var(--white);
+    height: 100vh;
+    font-family: josefin+sans;
+    align-items: center;
+}
+.img-logo{
+    max-width: 250px;
+}
+
+
+header{
+    justify-content: space-around;
+    background-color: var(--dark6);
+    min-height: 100px;
+    align-items: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    padding: 13rem;
+}
+
+.corpo {
+    width: 960px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+    min-height: 650px;
+}
+
+.corpo > div{
+    flex-direction: column;
+    display: flex;
+    gap: 3rem;
+}
+
+h1{
+    color: aliceblue;
+}
+ p{
+    color: aliceblue;
+ }
+
+.img-logo{
+    max-width: 350px;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
